@@ -18,6 +18,7 @@
       <xs:sequence>
         <xs:element ref="dan" />
         <xs:element ref="mesec" />
+        <xs:element ref="godina" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -32,6 +33,13 @@
     <xs:simpleType>
       <xs:restriction base="xs:string">
         <xs:pattern value="[1-9]|1[0-2]"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+    <xs:element name="godina">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="202[0-2]"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element>
@@ -60,7 +68,7 @@
   </xs:element>
   <xs:simpleType name="emailRest">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\c{4,25}@\c{4,13}.com"/>
+      <xs:pattern value="\c{4,25}@\c{4,13}.\c{2,3}"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
