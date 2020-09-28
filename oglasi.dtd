@@ -1,0 +1,23 @@
+<!ELEMENT Oglasi (oglas)+>
+
+<!ELEMENT oglas (datumIsteka, cena, tekstOglasa, tag, (e-mail)+)>
+<!ATTLIST oglas kategorija (Automobil|Alati|Poducavanje|Stanovi) #REQUIRED>
+
+<!ELEMENT datumIsteka (dan, mesec, godina)>
+<!ELEMENT dan (#PCDATA)>
+<!ELEMENT mesec (#PCDATA)>
+<!ELEMENT godina (#PCDATA)>
+
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena valuta (din|eur) "din">
+
+<!ELEMENT tekstOglasa (#PCDATA)>
+
+<!ELEMENT tag (tag1, tag2, tag3, tag4)>
+<!ELEMENT tag1 (#PCDATA)>
+<!ELEMENT tag2 (#PCDATA)>
+<!ELEMENT tag3 (#PCDATA)>
+<!ELEMENT tag4 (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+<!ATTLIST email tip (privatni|sluzbeni) #REQUIRED>

@@ -1,0 +1,69 @@
+<oglasi>
+							<!--prvi oglas-->
+<oglas kategorija='Automobil'>
+<datumIsteka>
+<dan>2</dan>
+<mesec>Mart</mesec>
+<godina>2022</godina>
+</datumIsteka>
+<cena valuta="eur">5000</cena>
+<Tekstoglasa> Mercedes Benz CLS 320,2008 godina ,sive boje,kozni enterijer</tekstoglasa>
+<tag>
+<tag1> Mercedes Benz</tag1>
+<tag2> kupe </tag2>
+<tag3>sport</tag3>
+</tag>
+<e mail tip="privatni">aleksaviser@edu.rs</email>
+<e mail tip="sluzbeni">sr.aleksa@yahoo.rs</email>
+</oglas>
+							<!--drugi oglas-->
+<oglas kategorija='Stanovi'>
+<datumisteka>
+<dan>5</dan>
+<mesec>Januar</mesec>
+<Godina>2022</Godina>
+</datumisteka>
+<cena valuta='Eur'>6590</cena>
+<tekstoglasa>Stan 54 m2,Lokacija Beograd,vracar,nova gradnja</tekstoglasa>
+<tag>
+<tag1>Stan</tag1>
+<tag2>Beograd</tag2>
+<tag3>Opremljen</tag3>
+</tag>
+<e mail tip="privatni">Alexamilinkovic@gmail.com</email>
+</oglas>
+			         <!--treci oglas-->
+<oglas kategorija='Alati'>
+<datumIsteka>
+<dan>4</dan>
+<mesec>januar</mesec>
+<godina>2022</godina>
+<tekstoglasa> Makita akumulatorska busilica za zavija safova i busenje rupa</tekstoglasa>
+<tag>
+<tag1>Makita</tag1>
+<tag2>Busilica</tag2>
+<tag3>Zavijanje</tag3>
+<tag4>Busenje</tag4>
+</tag>
+<email tip="sluzbeni">sr.aleksa@gmail.com </email>
+<email tip="privatni">miljic@gmail.com </email>
+</oglas>
+			         <!--cetvrti oglas-->
+<oglas kategorija="Poducavanje">
+<datumIsteka>
+<dan>9</dan>
+<mesec>mart</mesec>
+<godina>2022</godina>
+<tekstoglasa> Diplomirani filolog poducava Arapski jezik kandidate do C1 u Arandjelovci i Beogradu</tekstoglasa>
+<tag>
+<tag1>Jezk</tag1>
+<tag2>Arandjelovac</tag2>
+<tag3>Beograd</tag3>
+</tag>
+<email tip="sluzbeni">selenaengleski@gmail.com</email>
+</oglas>
+
+
+
+
+
